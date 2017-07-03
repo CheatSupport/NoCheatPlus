@@ -82,14 +82,14 @@ public class DefaultComponentFactory {
                 .advertise(true)
                 ,
                 new Activation()
-                .neutralDescription("ProtocolLib 3.6.5 or 3.6.4 for Minecraft 1.8.x")
-                .pluginVersionBetween("ProtocolLib", "3.6.4", true, "3.6.5", true)
+                .neutralDescription("ProtocolLib 4.3.0 for Minecraft 1.8.x")
+                .pluginVersionBetween("ProtocolLib", "4.3.0", true, "3.6.5", true)
                 .minecraftVersionBetween("1.8", true, "1.9", false)
                 ,
                 new Activation()
-                .neutralDescription("ProtocolLib 3.6.6 for PaperSpigot 1.8.x")
-                .pluginVersionEQ("ProtocolLib", "3.6.6")
-                .serverVersionContainsIgnoreCase("paperspigot")
+                .neutralDescription("ProtocolLib 4.3.0 for TacoSpigot 1.8.x")
+                .pluginVersionEQ("ProtocolLib", "4.3.0")
+                .serverVersionContainsIgnoreCase("tacospigot")
                 .minecraftVersionBetween("1.8", true, "1.9", false)
                 .advertise(true)
                 ,
